@@ -256,7 +256,7 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {194193264},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
@@ -514,7 +514,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 194193264
 now = os.time()
 math.randomseed(now)
 started = false
